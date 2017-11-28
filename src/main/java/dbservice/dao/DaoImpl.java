@@ -51,4 +51,12 @@ public class DaoImpl implements Dao{
         transaction.commit();
         session.close();
     }
+
+    public void updateUser(User user){
+        Session session = DBService.getSessionFactory().openSession();
+        Transaction transaction = session.beginTransaction();
+        session.update(user);
+        transaction.commit();
+        session.close();
+    }
 }

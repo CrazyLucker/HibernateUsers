@@ -14,4 +14,6 @@ public interface Dao {
     public User getUserById(int id);
 
     public void updateUser(int id, String name, String surname, int age);
+
+    public void updateUser(User user);
 }

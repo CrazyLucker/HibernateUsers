@@ -34,7 +34,7 @@ public class UpdateServlet extends HttpServlet {
         String name = req.getParameter("name");
         String surname = req.getParameter("surname");
         try {
-            dao.updateUser(id, name, surname, age);
+            dao.updateUser(new User(id, name,surname, age));
         } catch (Exception e) {
             e.printStackTrace();
         }
