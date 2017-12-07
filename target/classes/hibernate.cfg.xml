@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE hibernate-configuration SYSTEM
-        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<!DOCTYPE hibernate-configuration SYSTEM-->
+        <!--"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">-->
 
-<hibernate-configuration>
-    <session-factory>
-        <property name="connection.url">jdbc:mysql://localhost/Users</property>
-        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
-        <property name="connection.username">root</property>
-        <property name="connection.password">111qqq</property>
-        <!--<property name="connection.pool_size">1</property>-->
-        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
-        <property name="hbm2ddl.auto">update</property>
-        <property name="show_sql">true</property>
+<!--<hibernate-configuration>-->
+    <!--<session-factory>-->
+        <!--&lt;!&ndash;<property name="connection.url">jdbc:mysql://localhost/Users</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="connection.driver_class">com.mysql.jdbc.Driver</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="connection.username">root</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="connection.password">111qqq</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;&lt;!&ndash;<property name="connection.pool_size">1</property>&ndash;&gt;&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="dialect">org.hibernate.dialect.MySQLDialect</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="hbm2ddl.auto">update</property>&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="show_sql">true</property>&ndash;&gt;-->
 
-        <mapping class="dbservice.model.User"></mapping>
+        <!--&lt;!&ndash;<mapping class="dbservice.model.User"></mapping>&ndash;&gt;-->
 
-    </session-factory>
-</hibernate-configuration>
+    <!--</session-factory>-->
+<!--</hibernate-configuration>-->
